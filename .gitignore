@@ -1,1 +1,6 @@
 /venv
+/.venv
+/lambda_layer
+/package
+/venv1
+lambda_layer.zip

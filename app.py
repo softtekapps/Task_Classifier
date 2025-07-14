@@ -54,7 +54,7 @@ def get_llm_response(ticket_description):
         "categories": category_list,
         "subcategories": subcategory_list
     })
-
+    print(response)
     return response
 
 # Streamlit UI
@@ -81,3 +81,7 @@ if st.button("Classify Ticket"):
             st.table(df)
     else:
         st.warning("Please enter a ticket description.")
+        
+        
+get_llm_response("Example ticket description for testing purposes.")  # Example call to test the function
+st.write("This is an example call to test the function. You can ignore this in the actual application.")    
