@@ -7,3 +7,5 @@ langchain-google-genai
 langchain-community
 mangum
 python-dotenv
+streamlit 
+openpyxl
