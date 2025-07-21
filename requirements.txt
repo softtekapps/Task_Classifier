@@ -8,4 +8,5 @@ langchain-community
 mangum
 python-dotenv
 streamlit 
+tiktoken
 openpyxl
